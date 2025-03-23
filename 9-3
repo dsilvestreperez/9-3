@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class temperature {
+
+
+
+
+        public static void(String[] args) {
+
+            System.out.println("Welcome the Temperature Converter");//finding the temperature
+
+            Scanner input = new Scanner(System.in);
+
+            System.out.print("Enter the temperature");
+            double fahreheit = input.nextDouble();
+
+            double celsius =((59 *(fahrenheit - 32)));//th equation
+            System.out.println(fahrenheit +"degree is equivalent to" + elsius);
+        }
+
+
+}
